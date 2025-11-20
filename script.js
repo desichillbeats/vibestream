@@ -1,5 +1,4 @@
-const API_URL = 'http://127.0.0.1:5001/api';
-
+const API_URL = 'https://vibestream-rsum.onrender.com/api';
 // DOM Elements
 const searchInput = document.getElementById('search-input');
 const suggestionsContainer = document.getElementById('suggestions-container');
@@ -390,3 +389,4 @@ document.addEventListener('click', (e) => {
         suggestionsContainer.innerHTML = '';
     }
 });
+
